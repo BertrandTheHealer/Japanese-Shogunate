@@ -37,7 +37,6 @@ if (now > then) {
 }
 // Get milliseconds until 8:00 pm
 var diff = then - now;
-alert(diff);
 // Wait until 8:00, then run search
 setTimeout(runSearch, diff);
 
