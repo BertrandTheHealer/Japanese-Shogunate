@@ -1,0 +1,22 @@
+{
+    "name": "Japanese Shogunate Search",
+    "description": "Searches Google for 'How to restore Japanese Shogunate?' every day at 8 pm https://redd.it/a7jfau",
+    "version": "1.2.1",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": { "2000": "Shogunate.png" },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{fc006c4e-36a5-4779-acc0-aceb2f20d598}"
+        }
+    },
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "pause.png",
+        "default_title": "Will search 'How to restore Japanese Shogunate?' at 8 pm"
+    },
+    "manifest_version": 2
+}
